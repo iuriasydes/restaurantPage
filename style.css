@@ -367,6 +367,8 @@ section {
   display: flex;
 }
 
+/*MENU 1.15.41*/
+
 /*MEDIA QUERIES*/
 @media (max-width: 1200px) {
   section {
