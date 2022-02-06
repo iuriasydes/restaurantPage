@@ -330,6 +330,26 @@ section {
   transform: rotate(90deg);
 }
 
+/*GALLERY*/
+.gallery .gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+.gallery .gallery-container .box {
+  height: 40rem;
+  position: relative;
+  overflow: hidden;
+}
+.gallery .gallery-container .box img {
+  /*Centra la imagen en su contenedor*/
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  /*1.06.41*/
+}
+
+/*MEDIA QUERIES*/
 @media (max-width: 1200px) {
   section {
     padding: 3rem 5%;
