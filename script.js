@@ -62,3 +62,16 @@ previewContainer.querySelector("#close-preview").onclick = () => {
 
 /*Gallery */
 lightGallery(document.querySelector(".gallery .gallery-container"));
+
+/**Slide Our Menu */
+let swiper3 = new Swiper(".menu-slider", {
+  grabCursor: true,
+  loop: true,
+  autoHeight: true,
+  centeredSlides: true,
+  spaceBetween: 20,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
